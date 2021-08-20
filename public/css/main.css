@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/circe/Circe-Light.eot");
+  src: url("../fonts/circe/Circe-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/circe/Circe-Light.woff2") format("woff2"), url("../fonts/circe/Circe-Light.woff") format("woff"), url("../fonts/circe/Circe-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe Extra";
+  src: url("../fonts/circe/Circe-ExtraBold.eot");
+  src: url("../fonts/circe/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/circe/Circe-ExtraBold.woff2") format("woff2"), url("../fonts/circe/Circe-ExtraBold.woff") format("woff"), url("../fonts/circe/Circe-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/circe/Circe-Thin.eot");
+  src: url("../fonts/circe/Circe-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/circe/Circe-Thin.woff2") format("woff2"), url("../fonts/circe/Circe-Thin.woff") format("woff"), url("../fonts/circe/Circe-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/circe/Circe-Regular.eot");
+  src: url("../fonts/circe/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/circe/Circe-Regular.woff2") format("woff2"), url("../fonts/circe/Circe-Regular.woff") format("woff"), url("../fonts/circe/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/circe/Circe-Bold.eot");
+  src: url("../fonts/circe/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/circe/Circe-Bold.woff2") format("woff2"), url("../fonts/circe/Circe-Bold.woff") format("woff"), url("../fonts/circe/Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PF Handbook Pro";
+  src: url("../fonts/PFHandbookPro/PFHandbookPro-Medium.eot");
+  src: url("../fonts/PFHandbookPro/PFHandbookPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PFHandbookPro/PFHandbookPro-Medium.woff2") format("woff2"), url("../fonts/PFHandbookPro/PFHandbookPro-Medium.woff") format("woff"), url("../fonts/PFHandbookPro/PFHandbookPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+
+.block__banner {
+  background-image: url("../img/header/bg_banner.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 600px;
+  z-index: 4;
+}
+.block__banner__logo {
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+.block__banner__logo__name::before {
+  content: url("../img/header/key.png");
+}
+.block__banner__logo__name__cookforreal {
+  font-size: 13.1px;
+  letter-spacing: 2px;
+  font-family: "Circe";
+  color: #d4d4d4;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  -webkit-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  -ms-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  position: relative;
+  left: 40px;
+  top: -27px;
+  z-index: 65;
+}
+.block__banner__logo__name__tastycookery {
+  font-size: 26px;
+  font-family: "PF Handbook Pro";
+  color: white;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  -webkit-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  -ms-transform: matrix(1.4676174155, 0, 0, 1.4657246756, 0, 0);
+  position: relative;
+  top: -28px;
+  z-index: 64;
+}
+.block__banner__text1 {
+  font-size: 22px;
+  font-family: "Circe";
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  -webkit-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  -ms-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  position: absolute;
+  left: 293.294px;
+  top: 221.381px;
+  z-index: 25;
+  margin: 0;
+}
+.block__banner__text2 {
+  font-size: 10px;
+  font-family: "Circe";
+  color: white;
+  line-height: 1.2;
+  -moz-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  -webkit-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  -ms-transform: matrix(2.4446769448, 0, 0, 2.4446769448, 0, 0);
+  position: absolute;
+  left: 242px;
+  top: 338.364px;
+  z-index: 27;
+  margin: 0;
+}
+.block__banner__bg {
+  background-image: url("../img/header/bg_red_rectangle.png");
+  position: absolute;
+  left: 45px;
+  top: 324px;
+  width: 520px;
+  height: 210px;
+  z-index: 68;
+}
+.block__banner__bg__btn {
+  border-radius: 10px;
+  background-image: -moz-linear-gradient(27deg, #12bc82 0%, #bfdf2c 100%);
+  background-image: -webkit-linear-gradient(27deg, #12bc82 0%, #bfdf2c 100%);
+  background-image: -ms-linear-gradient(27deg, #12bc82 0%, #bfdf2c 100%);
+  position: relative;
+  top: 70px;
+  left: 90px;
+  width: 330px;
+  height: 90px;
+  z-index: 70;
+  border: none;
+}
+.block__banner__bg__btn span {
+  display: block;
+  width: 200px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Circe";
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
