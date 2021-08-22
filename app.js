@@ -1,6 +1,8 @@
 const express = require('express')
 app = express()
 const router = require('./routes/main');
+// const data = JSON.parse(require('./data/data.json'));
+// const data = require('./data/data.json');
 
 require('dotenv').config();
 
