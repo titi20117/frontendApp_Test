@@ -3,37 +3,37 @@
     "tasks": [
         {
             "text": "Простые домашние рецепты",
-            "picture":"../img/article/task1.png"
+            "picture":"img/article/task1.png"
         },
         {
             "text": "Статьи о готовке",
-            "picture":"../img/article/task2.png"
+            "picture":"img/article/task2.png"
         },
         {
             "text": "Бесплатная книга рецептов всем подписчикам",
-            "picture":"../img/article/task3.png"
+            "picture":"img/article/task3.png"
         },
         {
             "text": "Собирайте рецепты в Recipe box",
-            "picture":"../img/article/task4.png"
+            "picture":"img/article/task4.png"
         },
         {
             "text": "Печать рецептов",
-            "picture":"../img/article/task5.png"
+            "picture":"img/article/task5.png"
         }
     ],
     "reasons": [
         {
             "text": "Получать лучшие рецепты по разным категориям",
-            "picture": "../img/article/reason1.png"
+            "picture": "img/article/reason1.png"
         },
         {
             "text": "Готовить без лишних усилий и делать из каждого дня не рутинный",
-            "picture": "../img/article/reason2.png"
+            "picture": "img/article/reason2.png"
         },
         {
             "text": "Довольные члены семьи",
-            "picture": "../img/article/reason3.png"
+            "picture": "img/article/reason3.png"
         }
     ],
     "mailing_text": "Удобно получать на емейл уникальные проверенные рецепты, которые дружная команда Tastycookery попробовала сама и рекомендует",
@@ -41,19 +41,19 @@
         {
             "name": "Дейнерис",
             "birthdate": 1965,
-            "photo": "../img/review/review_pic1.png",
+            "photo": "img/review/review_pic1.png",
             "message": "После того, как стал участником проекта Tastycookery получает много простых рецептов, о которых раньше не задумывался, стал готовить некоторые, семья рада, стали больше разговаривать во время ужина и хвалить кулинарные таланты Человека1."
         },
         {
             "name": "Тайвин",
             "birthdate": 1978,
-            "photo": "../img/review/review_pic2.png",
+            "photo": "img/review/review_pic2.png",
             "message": "Рад, что благодаря простым рецептам может наслаждаться изысканными блюдами, тратя на приготовление 20 мин в день"
         },
         {
             "name": "Серсея",
             "birthdate": 1965,
-            "photo": "../img/review/review_pic3.png",
+            "photo": "img/review/review_pic3.png",
             "message": "Довольна, что благодаря рецептам с TC может на работу брать полезные обеды, что полностью отказалась от офисной неполезной еды и за 2 месяца похудела на 3 кг. И очень рекомендует всем использовать рецепты с сайта"
         }
     ],
