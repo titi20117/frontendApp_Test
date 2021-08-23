@@ -1,11 +1,29 @@
 <div class="block__article">
-    <div>
-        <ul>
-            <li>manger</li>
-            <li>manger</li>
-            <li>manger</li>
-        </ul>
+    <div class="block__article__task">
+    <%
+    for(var i = 0 ; i < data.tasks.length ; i++) {
+    %>
+        <div class="block__article__task__pic">
+            <img src="<%= data.tasks[i].picture %>" alt="photo <%= i %>">
+        </div>
+        <div class="block__article__task__name">
+            <%= data.tasks[i].text %>
+        </div>
+    <% } %>
     </div>
-    <div></div>
-    <div></div>
+    <div class="block__article__reason-title">
+        <span>ПОЧЕМУ КРУТО БЫТЬ С НАМИ:</span>
+    </div>
+    <div class="block__article__reason">
+    <%
+    for(var i = 0 ; i < data.reasons.length ; i++) {
+    %>
+        <div class="block__article__reason__pic">
+            <img src="<%= data.reasons[i].picture %>" alt="photo <%= i %>">
+        </div>
+        <div class="block__article__reason__name">
+            <%= data.reasons[i].text %>
+        </div>
+    <% } %>    
+    </div>
 </div>
