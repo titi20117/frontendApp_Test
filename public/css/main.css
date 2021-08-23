@@ -151,3 +151,13 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+.block__article__task {
+  display: flex;
+  flex-direction: row;
+}
+.block__article__reason {
+  display: flex;
+}
+.block__review__content {
+  display: flex;
+}

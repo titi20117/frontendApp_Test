@@ -183,13 +183,21 @@ body {
         }
     }
     &__article {
-
+        &__task {
+            display: flex;
+            flex-direction: row;
+        }
+        &__reason {
+            display: flex;
+        }
     }
     &__sinup {
 
     }
     &__review {
-
+        &__content {
+            display: flex;
+        }
     }
     &__footer {
         

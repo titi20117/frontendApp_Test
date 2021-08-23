@@ -2,23 +2,24 @@
     <div class="block__review__title">
         <span>ОТЗЫВЫ ДОВОЛЬНЫХ ПОЛЬЗОВАТЕЛЕЙ</span>
     </div>
-    <%
-    for(var i = 0 ; i < data.reviews.length ; i++) {
-    %>
-    <div class="block__review__msg">
-        <span><%= data.reviews[i].message %></span>
-    </div>
-    <div class="block__review__profil">
-        <img src="<%= data.reviews[i].photo %>" alt="photo <%= data.reviews[i].name %>">
-        <div>
-            <span>
-                <%= data.reviews[i].name %>
-            </span>
-            <span>
-                <%= new Date().getFullYear() - data.reviews[i].birthdate %> лет
-            </span>
+    <div class="block__review__content">
+        <%
+        for(var i = 0 ; i < data.reviews.length ; i++) {
+        %>
+        <div class="block__review__content__msg">
+            <span><%= data.reviews[i].message %></span>
         </div>
+        <div class="block__review__content__profil">
+            <img src="<%= data.reviews[i].photo %>" alt="photo <%= data.reviews[i].name %>">
+            <div>
+                <span>
+                    <%= data.reviews[i].name %>
+                </span>
+                <span>
+                    <%= new Date().getFullYear() - data.reviews[i].birthdate %> лет
+                </span>
+            </div>
+        </div>
+        <% } %>
     </div>
-
-    <% } %>
 </div>
